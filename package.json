@@ -1,0 +1,11 @@
+{
+  "name": "rtl-sass-grunt",
+  "version": "0.1.0",
+  "author": "Ahmad Ajmi",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "^0.16.1"
+  }
+}

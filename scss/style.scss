@@ -1,0 +1,36 @@
+//
+// Import variables
+//
+
+@import 'variables';
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+//
+// $default-float
+// $opposite-float
+// $default-direction
+// $opposite-direction
+//
+
+body { direction: $default-direction; }
+
+.row {
+	max-width: 60em;
+	margin: 0 auto;
+	clear: both;
+}
+
+.column {
+	border: 1px solid #ccc;
+	padding: 1em;
+	float: $default-float;
+}
+
+main { width: 75%; }
+
+aside { width: 25%; }

@@ -1,8 +1,12 @@
 //
-// Import variables
+// Imports
 //
 
-@import 'variables';
+@import 'mixins';
+
+//
+// Style
+//
 
 * {
 	-webkit-box-sizing: border-box;
@@ -29,6 +33,12 @@ body { direction: $default-direction; }
 	border: 1px solid #ccc;
 	padding: 1em;
 	float: $default-float;
+}
+
+.media {
+  @include float(left);
+  @include padding-right(10px);
+  @include text-align(left);
 }
 
 main { width: 75%; }

@@ -1,4 +1,13 @@
 //
+// Set the floats && direction. this is the default for LTR languages
+//
+
+$default-float:          left;
+$opposite-float:        right;
+
+$default-direction:       ltr;
+$opposite-direction:      rtl;
+//
 // Import the main style
 //
 

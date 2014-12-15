@@ -1,15 +1,16 @@
 //
-// Rsset float && direction, this is the default for RTL languages
+// Set float && direction, this is the default for RTL languages
 //
 
-$default-float:       right;
-$opposite-float:      left;
+$default-float:         right;
+$opposite-float:         left;
 
-$default-direction:   rtl;
-$opposite-direction:  ltr;
+$default-direction:       rtl;
+$opposite-direction:      ltr;
 
 //
 // Import the main style
 //
 
 @import 'style';
+
